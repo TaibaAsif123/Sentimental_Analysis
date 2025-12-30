@@ -1,24 +1,21 @@
-
-# Sentiment Analysis Project README.md
-
-```markdown
-# Sentiment Analysis
+Sentimental Analysis Project README.md
+# Sentimental Analysis
 
 ## Project Overview
-This project implements a Natural Language Processing (NLP) system to classify text sentiment (positive, negative, neutral) from user reviews or social media data. The focus is on text preprocessing, feature extraction, and machine learning model development for real-world sentiment prediction.
+This project implements a Natural Language Processing (NLP) system to analyze and classify text sentiment (positive, negative, neutral) from user reviews, social media posts, or other textual data. The project demonstrates text preprocessing, feature extraction, and machine learning model training to predict sentiment accurately.
 
 ## Features
-- Text preprocessing: tokenization, stop-word removal, stemming/lemmatization
-- Feature extraction using TF-IDF and Bag-of-Words
-- Model training: Logistic Regression, Naive Bayes, Random Forest
-- Model evaluation: Accuracy, Precision, Recall, F1-score
-- Fully implemented in Google Colab
+- **Text Preprocessing:** Tokenization, stop-word removal, stemming/lemmatization
+- **Feature Extraction:** TF-IDF and Bag-of-Words representations
+- **Machine Learning Models:** Logistic Regression, Naive Bayes, Random Forest
+- **Model Evaluation:** Accuracy, Precision, Recall, F1-score
+- **Platform:** Fully implemented in Google Colab
 
 ## Tools & Technologies
 - Python
 - NLTK, SpaCy
-- Scikit-learn
 - Pandas, NumPy
+- Scikit-learn
 - Matplotlib, Seaborn
 - Google Colab
 - GitHub
@@ -40,6 +37,6 @@ Usage
 
 Run the notebook step-by-step.
 
-Explore preprocessing, feature extraction, and model training cells.
+Explore data preprocessing, feature extraction, and model training cells.
 
-Test the model with your own text data.
+Test the model with your own text data for sentiment prediction.
